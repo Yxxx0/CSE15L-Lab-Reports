@@ -1,3 +1,3 @@
 # Lab Report 1
 ---
-- For 'cd' command
+- For `cd` command
