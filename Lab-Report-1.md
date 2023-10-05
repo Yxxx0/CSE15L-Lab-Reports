@@ -10,7 +10,6 @@
      
   2. Share an exmaple of using the command with a path to a directory as an argument.
      
-     ![](cd-directory.png)
 
      We can see that the output with after using the command  
      
