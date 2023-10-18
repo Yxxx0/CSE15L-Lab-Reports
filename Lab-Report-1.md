@@ -25,35 +25,35 @@
      
      ![](Screenshot/ls-no-arguments.png)
 
-     > The working directory was /home when the command was run. `ls` is used to list the files and folders at the given path, so I received this output because there is a file named 'lecture1' under the '/home' directory.
+     > The working directory was `/home` when the command was run. `ls` is used to list the files and folders at the given path, so I received this output because there is a file named 'lecture1' under the '/home' directory.
      
   2. Share an exmaple of using the command with a path to a directory as an argument.
      
      ![](Screenshot/ls-with-directory.png)
 
-     > The working directory was /home when the command was run. This output list out all the things in the lecture1 file.
+     > The working directory was `/home` when the command was run. This output list out all the things in the lecture1 file.
      
   3. Share an example of using the command with a path to a file as an argument.
      
      ![](Screenshot/ls-file.png)
 
-     > The working directory was /home when the command was run. The output is an error, because `Hello.java` is a java file containing the code, there is no other file that the `ls` command can list.
+     > The working directory was `/home` when the command was run. The output is an error, because `Hello.java` is a java file containing the code, there is no other file that the `ls` command can list. But if there were more files inside file, `ls` will list them out.
 
 - For `cat` command
   1. Share an example of using the command with no arguments.
      
      ![](Screenshot/cat-no-arguments.png)
 
-     > The working directory was /home when the command was run. `cat` is used to print the contents of files given by the paths, so the output shows nothing because I didn't give it a path to `cat`something.
+     > The working directory was `/home` when the command was run. `cat` is used to print the contents of files given by the paths, so the output shows nothing because I didn't give it a path to `cat`something.
      
   2. Share an exmaple of using the command with a path to a directory as an argument.
      
      ![](Screenshot/cat-with-directory.png)
 
-     > The working directory was /home when the command was run. lecture1 is a directory, there are many other file under lecture1, the `cat` command can not print a directory.
+     > The working directory was `/home` when the command was run. lecture1 is a directory, there are many other file under lecture1, the `cat` command can not print a directory.
      
   3. Share an example of using the command with a path to a file as an argument.
      
      ![](Screenshot/cat-file.png)
 
-     > The working directory was /home when the command was run. The output print out the code in Hello.java file.
+     > The working directory was `/home` when the command was run. The output print out the code in Hello.java file.
