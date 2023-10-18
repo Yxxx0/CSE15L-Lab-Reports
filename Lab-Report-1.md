@@ -12,48 +12,48 @@
  
      ![](Screenshot/cd-with-directory.png)
 
-     > We can observe that after using the command with a specified path, the working directory changes to `/home/lecture1`. Additionally, we can see `/lecture1` displayed after user@ to indicate the current working directory.
+     > The working directory was `/home` when the command was run. Additionally, we can see `/lecture1` displayed after the command was run to indicate the current working directory.
      
   3. Share an example of using the command with a path to a file as an argument.
      
      ![](Screenshot/cd-file.png)
      
-     > The `cd` command is used to switch directories. I believe it cannot be used with a file because a file is not a directory that we can switch to.
+     > The working directory was `/home/lecture1` when the command was run. The output is an error, I believe the reason we got the output like that is because this java file is not a working directory that we can switch to.
 
 - For `ls` command
   1. Share an example of using the command with no arguments.
      
      ![](Screenshot/ls-no-arguments.png)
 
-     > `ls` is used to list the files and folders at the given path. I received this output because there is a file named 'lecture1' under the '/home' directory, so it listed it.
+     > The working directory was /home when the command was run. `ls` is used to list the files and folders at the given path, so I received this output because there is a file named 'lecture1' under the '/home' directory.
      
   2. Share an exmaple of using the command with a path to a directory as an argument.
      
      ![](Screenshot/ls-with-directory.png)
 
-     > This output list out things in the lecture1 file.
+     > The working directory was /home when the command was run. This output list out all the things in the lecture1 file.
      
   3. Share an example of using the command with a path to a file as an argument.
      
      ![](Screenshot/ls-file.png)
 
-     > The output is an error, because `Hello.java` is a piece of code, there is no other file that the `ls` command can list.
+     > The working directory was /home when the command was run. The output is an error, because `Hello.java` is a java file containing the code, there is no other file that the `ls` command can list.
 
 - For `cat` command
   1. Share an example of using the command with no arguments.
      
      ![](Screenshot/cat-no-arguments.png)
 
-     > `cat` is used to print the contents of files given by the paths. The output shows nothing because I didn't give it a path to `cat`.
+     > The working directory was /home when the command was run. `cat` is used to print the contents of files given by the paths, so the output shows nothing because I didn't give it a path to `cat`something.
      
-  3. Share an exmaple of using the command with a path to a directory as an argument.
+  2. Share an exmaple of using the command with a path to a directory as an argument.
      
      ![](Screenshot/cat-with-directory.png)
 
-     > lecture1 is kind like a file collection, there are many other file under lecture1, the `cat` command cann't not print the contents of this file collection.
+     > The working directory was /home when the command was run. lecture1 is a directory, there are many other file under lecture1, the `cat` command can not print a directory.
      
-  5. Share an example of using the command with a path to a file as an argument.
+  3. Share an example of using the command with a path to a file as an argument.
      
      ![](Screenshot/cat-file.png)
 
-     > The output print out the code in Hello.java file.
+     > The working directory was /home when the command was run. The output print out the code in Hello.java file.
