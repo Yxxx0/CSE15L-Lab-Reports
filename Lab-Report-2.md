@@ -47,5 +47,7 @@ class StringServer {
 ```
 - Add message `Hello`
   ![](addHello.jpg)
+  > `public String handleRequest(URI url)` is called when a request is made to the server. In the handleRequest method, the `URI url` parameter, `String str` field and `int lineCount` field are relevant. The values of the relevant fields may change depending on the specific request, 1.If the request path is `/`, the handleRequest method simply returns the current value of the str field. In this case, no fields are changed. 2.If the request path is `/add-message`, and the query parameter starts with `s=`, a message is extracted from the query and appended to the str field, along with an incremented line number. The lineCount and str fields are updated to reflect the new message and line count. 3.If the request path is `/add-message`, but the query parameter doesn't start with `s=`, a `400 Bad Request` response is returned, and no fields are changed. 4.For any other request path, a `404 Not Found` response is returned, and no fields are changed.
+
 - Add message `How are you`
   ![](addHowareyou.jpg)
