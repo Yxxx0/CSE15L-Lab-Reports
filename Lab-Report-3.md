@@ -20,7 +20,7 @@
   }
   ```
 - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-  ![]()
+  ![](Screenshot/symptom.png)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 
   Before:
@@ -45,5 +45,7 @@
     return newArray;
   }
   ```
+
+  > The fix involves swapping the source and destination arrays in the assignment. Now, the `newArray` is correctly populated with the reversed elements of the input array `arr`. This way, the original `arr` remains unchanged, and a new reversed array is created as intended.
   
 ## PART 2
