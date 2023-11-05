@@ -3,6 +3,7 @@
 ## PART 1
 
 - Code:
+  
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -45,6 +46,7 @@ class StringServer {
     }
 }
 ```
+
 - Add message `Hello`
   ![](Screenshot/Hello.png)
 
