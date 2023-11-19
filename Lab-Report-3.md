@@ -52,27 +52,27 @@
 - Command `find`
   1. Using the -mtime option to search for files by modification time:
      
-     Example 1: `find ./technical -type f -mtime -7` Finding files modified within the last 7 days in the current directory.
+     Example 1: `find ./technical/911report -type f -mtime -7` Finding files modified within the last 7 days.
      
-     Example 2: `find ~ -type f -mtime +30` Searching for files modified more than 30 days ago in the user's home directory.
+     Example 2: `find ./technical/911report -type f -mtime -30` Searching for files modified within the last 30 days.
      
   2. Using the -size option to search for files by size:
      
-     Example 1: `find ~ -type f -size +1M` Finding files larger than 1MB in the user's home directory.
+     Example 1: `find ./technical/biomed -type f -size +100k` Finding files larger than 100KB.
      
-     Example 2: `find /var -type f -size -100k` Searching for files smaller than 100KB in the /var directory.
+     Example 2: `find ./technical/biomed -type f -size -10k` Searching for files smaller than 10KB.
      
   3. Using the -exec option to perform actions on found files:
      
-     Example 1: `find ~ -type f -name "*.txt" -exec wc -l {} \;` Finding all text files within the user's home directory and running a command to count the lines in each of them.
+     Example 1: `find ./technical/government/Post_Rate_Comm -type f -name "*.txt" -exec wc -l {} \;` Finding all text files and running a command to count the lines in each of them.
      
-     Example 2: `find /var -type d -exec chmod 777 {} \;` Searching for all directories in the /var directory and changing their permissions to make them writable.
+     Example 2: `find ./technical/911report -type f -name "*.txt" -exec wc -l {} \;` Count the number of lines in all text files.
      
-  4. Using the -maxdepth option to limit the search depth:
+  4. Using the -name option to limit the search depth:
      
-     Example 1: `find ~ -maxdepth 1 -type f -name "*.txt"` Finding all text files within the current directory and its immediate subdirectories (limiting the search to a depth of 1).
+     Example 1: `find ./technical/plos -name "*journal*.txt"` searching for files with names containing "journal" and having the ".txt" extension within the ./technical/plos directory and its subdirectories.
      
-     Example 2: `find /media -maxdepth 2 -type d -name "images"` Searching for directories containing images within the /media directory, limiting the search to a depth of 2.
+     Example 2: `find ./technical/biomed -iname "*230X*"` searching for files with names containing "230X" (case-insensitive) within the ./technical/biomed directory and its subdirectories.
 
 ## Citation
 - https://www.redhat.com/sysadmin/linux-find-command
