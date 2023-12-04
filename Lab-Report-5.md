@@ -185,4 +185,4 @@
 
 - In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
-  > 
+  > In the latter part of this quarter's lab sessions, I delved into the world of Vim, a text editor that I had little familiarity with previously. Through hands-on experience and guidance from tutors and classmates, I discovered the efficiency and time-saving capabilities that Vim offers in coding and text manipulation. Learning its various commands and shortcuts not only enhanced my coding workflow but also introduced me to a powerful tool that I hadn't explored before. The newfound proficiency in Vim has proven to be a valuable addition to my technical skill set.
